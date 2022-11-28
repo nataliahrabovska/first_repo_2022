@@ -14,6 +14,10 @@ int main() {
     scanf("%f", &h);
     printf("d= ");
     scanf("%f", &d);
+
+
+
+    
     for (x = a; roundf(x * 1000)/1000 <= roundf(b * 1000)/1000; x += h) {
         k = 1;
         s = 0;
@@ -26,3 +30,5 @@ int main() {
     }
     return 0;
 }
+
+
